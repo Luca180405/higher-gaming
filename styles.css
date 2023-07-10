@@ -1,16 +1,17 @@
 /* styles.css */
 
-/* Reset default styles */
+/* Reset der Standardstile */
 html, body, ul, li, h1, h2, p {
   margin: 0;
   padding: 0;
 }
 
-/* Global styles */
+/* Globaler Stil */
 body {
   font-family: Arial, sans-serif;
   background-color: #f8f8f8;
   color: #333;
+  line-height: 1.5;
 }
 
 /* Header */
@@ -20,21 +21,35 @@ header {
   padding: 20px;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+}
+
 nav ul {
   list-style: none;
 }
 
 nav ul li {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
 }
 
 nav ul li a {
   color: #fff;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-/* Main content */
+nav ul li a:hover {
+  color: #ffd700;
+}
+
+/* Hauptinhalt */
 main {
   max-width: 960px;
   margin: 0 auto;
@@ -46,6 +61,11 @@ section {
 }
 
 h1, h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+p {
   margin-bottom: 10px;
 }
 
@@ -57,10 +77,14 @@ footer {
   text-align: center;
 }
 
-/* Media queries for responsiveness */
+/* Media Queries für die Responsivität */
 @media screen and (max-width: 768px) {
-  /* Adjust styles for smaller screens */
+  /* Anpassung der Stile für kleinere Bildschirme */
   main {
     padding: 10px;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
   }
 }
