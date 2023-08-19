@@ -9,8 +9,8 @@
     </ul>
     
     <div class="main">
-        <a href="#" class="user"><i class="ri-trophy-fill"></i></i>Tournaments</a>
-        <a href="#">Test</a>
+        <a href="#" class="user" id="block"><i class="ri-trophy-fill"></i></i>Tournaments</a>
+        <a href="#" id="block">Test</a>
         <div class="bx bx-menu" id="menu-icon"></div>
     </div>
 </header>
@@ -141,5 +141,16 @@
 			right: 2%;
 		}
 	}
+
+    @media (max-width: 720px) {
+		.navbar a{
+			padding: 5px 0;
+			margin: 0px 20px;
+		}
+        #block {
+            display: none;
+        }
+	}
+
 
 </style>
