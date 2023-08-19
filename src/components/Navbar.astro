@@ -1,16 +1,15 @@
 <header>
-    <a href="#" class="logo"><img src="./Logo-White.png" alt="Logo" height="32" width="32"><span>Higher Gaming</span></a>
+    <a href="#" class="logo"><img src="./Logo-White.png" alt="Logo" height="48" width="40"><span>Higher Gaming</span></a>
 
     <ul class="navbar">
-        <li><a href="#" class="active">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#">POS</a></li>
+        <li><a href="#">Our Teams</a></li>
+        <li><a href="#">About</a></li>
     </ul>
     
     <div class="main">
-        <a href="#" class="user" id="block"><i class="ri-trophy-fill"></i></i>Tournaments</a>
-        <a href="#" id="block">Test</a>
+        <a href="#" class="user" id="block"><i class="ri-trophy-fill"></i></i>Achievements</a>
+        <a href="#" id="block">Matches</a>
         <div class="bx bx-menu" id="menu-icon"></div>
     </div>
 </header>
@@ -43,10 +42,10 @@
 		display: flex;
 		align-items: center;
 	}
-	.logo i {
+	.logo img {
 		color: var(--main-color);
 		font-size: 28px;
-		margin-right: 3px;
+		margin-right: 8px;
 	}
 	.logo span{
 		color: var(--text-color);
@@ -119,7 +118,7 @@
 			top: 100%;
 			right: -100%;
 			width: 270px;
-			height: 29vh;
+			height: 16vh;
 			background: var(--main-color);
 			display: flex;
 			flex-direction: column;
@@ -128,6 +127,8 @@
 			transition: all .50s ease;
 		}
 		.navbar a{
+            position: relative;
+            top: 10px;
 			display: block;
 			margin: 12px 0;
 			padding: 0px 25px;
