@@ -3,16 +3,40 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Our Teams">
-	<form style="position: relative; top: 200px;">
+        <div class="pos">
+            <h1 style="position: relative; top:130px; text-align: center;">SPONSORSHIP PROGRAM</h1>
+            <hr class="solid1">
+            <hr class="solid2">
+        </div>
+
+<!--     <form style="position: relative; top: 200px;">
         <label for="fname">First name:</label>
         <input type="text" id="fname" name="fname"><br><br>
         <label for="lname">Last name:</label>
         <input type="text" id="lname" name="lname"><br><br>
         <input type="submit" value="Submit">
-    </form>
+    </form> -->
 </Layout>
 
 <style>
+        .pos {
+            position: relative;
+            top: 20px;
+        }
+        hr.solid1 {
+        position: relative;
+        top: 105px;
+        left: 335px;
+        border-top: 1px #bbb;
+        width: 20%;
+        }
+        hr.solid2 {
+        position: relative;
+        top: 105px;
+        left: 1195px;
+        border-top: 1px #bbb;
+        width: 20%;
+        }
 		.Text {
         position: relative;
         font-size: xx-large;
