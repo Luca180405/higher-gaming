@@ -3,72 +3,118 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Our Teams">
-        <div class="pos">
-            <h1 style="position: relative; top:130px; text-align: center;">SPONSORSHIP PROGRAM</h1>
-            <hr class="solid1">
-            <hr class="solid2">
-        </div>
 
-        <div style="position: relative; top: 180px; display: flex; justify-content: space-around; align-items: center;">
-            <img src="./Badges/Silver.png" alt="Silver Badge" style="position: relative; top: 10px;" width="119" height="145">
-            <img src="./Badges/Gold.png" alt="Gold Badge" width="148" height="137">
-            <img src="./Badges/Platinum.png" alt="Platinum Badge" width="162" height="150">
-        </div>
+    <h1>SPONSORSHIP PROGRAM</h1>
 
-        <div style="position: relative; top: 180px; display: flex; justify-content: space-around; text-align: center;">
-            <h2>Silver Member</h2>
-            <h2>Gold Member</h2>
-            <h2>Platinum Member</h2>
+    <div class="dad">
+        <div class="row big">
+            <div class="column">Silver</div>
+            <div class="column">Gold</div>
+            <div class="column">Platinum</div>
         </div>
-
-        <div style="position: relative; top: 180px; display: flex; justify-content: space-around; right: 46px;">
-            <h2>$100-$500</h2>
-            <h2>$500-$1500</h2>
-            <h2>+$1500</h2>
+        <div class="row caption">
+            <div class="column">$100-$500</div>
+            <div class="column">$500-$1500</div>
+            <div class="column">+$1500</div>
         </div>
-
-        <div style="position: relative; top: 200px; display: flex; justify-content: space-around;">
-            <p>Description</p>
-            <p>Description</p>
-            <p>Description</p>
+        <div class="row descr">
+            <div class="column">
+                -1 Mistery Box per month <br>
+                -Higher Chance to win Friend Link from Samuel Bassotto, Kodigo, Keef, Miniminter , Surg TS ( we need to decide % of chance basing in the ammount ) Silver Members join automatically friend link giveaway and have the chance to win that friendlinks <br>
+                -1v1 our pros <br>
+                -Presented as Silver Member from our Sponsorship Program on twitter <br>
+                -Participate in HG Virtual Roulette to win Prizes ( merchandising , vouchers , discounts in our partnerships products ,gaming accessories and 1 monthly subscription in one of our official content creators twitch/YouTube channel) <br>
+                -Discount on our Official Team Jersey( check discounts with Jersey Sponsor) <br>
+                - special role on discord and a specific channel with every sponsor member to discuss ideas and be in touch with our community
+                </div>
+            <div class="column">
+                -1 Mistery Box per month <br>
+                -Friend Link from Samuel Bassotto,Miniminter, Keef, Kodigo, Surg TS <br>
+                -1v1 one of our pros <br>
+                -Presented as Gold Member from our Sponsorship Program on twitter <br>
+                -Participate in HG Virtual -Roulette to win Prizes ( merchandising , vouchers , discounts in our partnerships products , gaming accessories and 1 monthly subscription in one of our official content creators twitch/YouTube channel) <br>
+                -1 Official Team Jersey from Higher Gaming with your name on the back <br>
+                -His company name / his photo will be in every design from us / Sponsored By : Headers , Matchdays , Roster -Presentations etc. and tagged in every post <br>
+                -Will be added in our Official STAFF Whatsapp Group and help taking some decisions / ideas <br>
+                - special role on discord and a specific channel with every sponsor member to discuss ideas and be in touch with our community
+                </div>
+            <div class="column">
+                -1 Mistery Box per month <br>
+                -Friend Link from Samuel Bassotto, Kodigo, Keef, Miniminter , Surg TS <br>
+                -1v1 one of our pros <br>
+                -Presented as Platinum Member from our Sponsorship Program on twitter and as Official Sponsor <br>
+                -Participate in HG Virtual -Roulette to win Prizes (  merchandising , vouchers , discounts in our partnerships products ,gaming accessories and 1 monthly subscription in one of our official content creators twitch/YouTube channel) <br>
+                -1 Official Team Jersey from Higher Gaming with your name on the back <br>
+                -His company name / his photo will be in every design from us / Sponsored By : Headers , Matchdays , Roster -Presentations etc and tagged in every post <br>
+                -Will be added in our Official STAFF Whatsapp Group and help taking some decisions / ideas <br>
+                - His Logo/Name will be in our Team Jersey as official sponsor <br>
+                - His Logo/Name will be mentioned in every live event <br>
+                - % from team earnings from every competion <br>
+                - special role on discord and a specific channel with every sponsor member to discuss ideas and be in touch with our community
+                </div>
         </div>
+    </div>
 
-        <div style="position: relative; top: 300px; text-align: center; font-size: small;">
-            <h1>Ready To Join Higher Gaming?</h1>
-        </div>
+    <button>Apply here!</button>
 
-<!--     <form style="position: relative; top: 200px;">
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
-        <input type="submit" value="Submit">
-    </form> -->
 </Layout>
 
 <style>
-        .pos {
-            position: relative;
-            top: 20px;
-        }
-        hr.solid1 {
-            position: relative;
-            top: 105px;
-            left: 335px;
-            border-top: 1px #bbb;
-            width: 20%;
-        }
-        hr.solid2 {
-            position: relative;
-            top: 105px;
-            left: 1195px;
-            border-top: 1px #bbb;
-            width: 20%;
-        }
-		.Text {
-            position: relative;
-            font-size: xx-large;
-            top: 10rem;
-            text-align: center;
-        }
+    :root {
+        --background: #d75617;
+    }
+
+    h1 {
+        position: relative;
+        top: 150px;
+        text-align: center;
+    }
+
+    .big {
+        font-weight: 800;
+        font-size: x-large;
+    }
+
+    .caption {
+        font-weight: 100;
+    }
+
+    .descr {
+        font-weight: 400;
+        font-size: medium;
+    }
+
+    button {
+        position: relative;
+        top: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .column {
+        float: left;
+        width: 33.33%;
+    }
+
+    .dad {
+        position: relative;
+        top: 200px;
+        text-align: center;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+    /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+    }
+
 </style>
