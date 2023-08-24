@@ -10,12 +10,10 @@ import Layout from '../layouts/Layout.astro';
         <div class="row big">
             <div class="column">Silver</div>
             <div class="column">Gold</div>
-            <div class="column">Platinum</div>
         </div>
         <div class="row caption">
             <div class="column">$100-$500</div>
             <div class="column">$500-$1500</div>
-            <div class="column">+$1500</div>
         </div>
         <div class="row descr">
             <div class="column">
@@ -38,18 +36,24 @@ import Layout from '../layouts/Layout.astro';
                 -Will be added in our Official STAFF Whatsapp Group and help taking some decisions / ideas <br>
                 - special role on discord and a specific channel with every sponsor member to discuss ideas and be in touch with our community
                 </div>
+        </div>
+
+        <div class="row big">
+            <div class="column">Platinum</div>  
+        </div>
+        <div class="row caption">
+            <div class="column">+$1500</div>
+        </div>
+        <div class="row descr">
             <div class="column">
                 -1 Mistery Box per month <br>
-                -Friend Link from Samuel Bassotto, Kodigo, Keef, Miniminter , Surg TS <br>
+                -Friend Link from Samuel Bassotto,Miniminter, Keef, Kodigo, Surg TS <br>
                 -1v1 one of our pros <br>
-                -Presented as Platinum Member from our Sponsorship Program on twitter and as Official Sponsor <br>
-                -Participate in HG Virtual -Roulette to win Prizes (  merchandising , vouchers , discounts in our partnerships products ,gaming accessories and 1 monthly subscription in one of our official content creators twitch/YouTube channel) <br>
+                -Presented as Gold Member from our Sponsorship Program on twitter <br>
+                -Participate in HG Virtual -Roulette to win Prizes ( merchandising , vouchers , discounts in our partnerships products , gaming accessories and 1 monthly subscription in one of our official content creators twitch/YouTube channel) <br>
                 -1 Official Team Jersey from Higher Gaming with your name on the back <br>
-                -His company name / his photo will be in every design from us / Sponsored By : Headers , Matchdays , Roster -Presentations etc and tagged in every post <br>
+                -His company name / his photo will be in every design from us / Sponsored By : Headers , Matchdays , Roster -Presentations etc. and tagged in every post <br>
                 -Will be added in our Official STAFF Whatsapp Group and help taking some decisions / ideas <br>
-                - His Logo/Name will be in our Team Jersey as official sponsor <br>
-                - His Logo/Name will be mentioned in every live event <br>
-                - % from team earnings from every competion <br>
                 - special role on discord and a specific channel with every sponsor member to discuss ideas and be in touch with our community
                 </div>
         </div>
@@ -94,13 +98,19 @@ import Layout from '../layouts/Layout.astro';
 
     .column {
         float: left;
-        width: 33.33%;
+        width: 40%;
+        text-align: left;
     }
 
     .dad {
         position: relative;
         top: 200px;
-        text-align: center;
+        margin-right: 5rem;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
     }
 
     /* Clear floats after the columns */
