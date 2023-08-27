@@ -1,15 +1,25 @@
-<div class="footer"><a href="/Impressum">Impressum</a></div>
+<div class="footer" style="height: -5px; width: -5px;"><a href="/Impressum" style="color: inherit;">Impressum</a></div>
 
 <style>
-    .footer {
+  :root {
+		--bg-color: #222327;
+		--text-color: #f8f8f8;
+		--main-color: #d75617;
+	}
+
+  .footer {
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
   text-decoration: none;
   padding: 1rem;
-  background-color: #efefef;
-  color: red;
+  background-color: var(--bg-color);
+  color: var(--text-color); 
   text-align: center;
+}
+
+.footer:hover {
+  color: var(--main-color);
 }
 </style>
